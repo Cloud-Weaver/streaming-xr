@@ -11,13 +11,13 @@
   <a-entity gltf-model="#tree"></a-entity>
 	-->
   <a-assets>
-    <a-asset-item id="dino" src="https://cdn.aframe.io/examples/ar/models/triceratops/scene.gltf">
+   <!--  <a-asset-item id="dino" src="https://cdn.aframe.io/examples/ar/models/triceratops/scene.gltf"> -->
    <!-- <a-asset-item id="tree" src="shimamigos.png"> -->
     <!-- <a-asset-item id="bee" src="bee.glb"> -->
   </a-assets>
 
 		  <!-- Using the asset management system. -->
-		   <a-gltf-model src="#dino"></a-gltf-model> 
+		 <!--  <a-gltf-model src="#dino"></a-gltf-model> -->
 		 <!-- <a-gltf-model src="#bee"></a-gltf-model> -->
 		 <!--<a-image width="1" height="1" src="#tree"></a-image>-->
 		 
