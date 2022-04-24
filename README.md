@@ -4,23 +4,10 @@
   </head>
   <body>
     <a-scene>
-	<!--  <a-assets>
-    <a-asset-item id="tree" src="/path/to/tree.gltf"></a-asset-item>
-  </a-assets>
-
-  <a-entity gltf-model="#tree"></a-entity>
-	-->
   <a-assets>
-   <!--  <a-asset-item id="dino" src="https://cdn.aframe.io/examples/ar/models/triceratops/scene.gltf"> -->
-   <!-- <a-asset-item id="tree" src="shimamigos.png"> -->
-    <!-- <a-asset-item id="bee" src="bee.glb"> -->
+    <a-asset-item id="dino" src="https://cdn.aframe.io/examples/ar/models/triceratops/scene.gltf">
   </a-assets>
-
-		  <!-- Using the asset management system. -->
-		 <!--  <a-gltf-model src="#dino"></a-gltf-model> -->
-		 <!-- <a-gltf-model src="#bee"></a-gltf-model> -->
-		 <!--<a-image width="1" height="1" src="#tree"></a-image>-->
-		 
+		  <a-gltf-model src="#dino"></a-gltf-model>  
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
