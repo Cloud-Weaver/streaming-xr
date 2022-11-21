@@ -6,5 +6,7 @@
       <a href="/aframe_gltfmodel.html">Visit Model Frame 01</a>
         <br/>
       <a href="/a_marker01.html">Visit A Marker Test</a>
+        <br/>
+      <a href="/A-FrameTestAR01.html">Visit Another Marker Test</a>
     </body>
 </html>
