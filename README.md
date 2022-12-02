@@ -1,47 +1,25 @@
-<html>
-    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-    <!-- we import arjs version without NFT but with marker + location based support -->
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-    <body style="margin : 0px; overflow: hidden;">
-        <a-scene embedded arjs gltf-model="dracoDecoderPath:./decoders">
-		
-		  <a-assets>
-			  <!-- <a-asset-item id="model" src="https://cdn.aframe.io/examples/ar/models/triceratops/scene.gltf">  -->
-		   <!-- <a-asset-item id="tree" src="shimamigos.png"> -->
-			<a-asset-item id="model" src="./CWS-IP_inco321.glb"> </a-asset-item>-->
-		  </a-assets>
-		  
-        <a-marker preset="hiro">
- <!-- -->
-            <a-entity
-            position="0 0 0"
-			animation="property: rotation; to: 0 360 0; dur: 9000; easing: linear; loop: true"
-            scale="0.05 0.05 0.05"
-            gltf-model="https://voidrunners.nyc3.digitaloceanspaces.com/vrships/213-assets/ship.glb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=2QXDBFFEOUISHX2VB4RV%2F20221121%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221121T032056Z&X-Amz-Expires=604800&X-Amz-Signature=0935aa2ded4faeb854091e4dadb57c0a8e8ab0042cd6a93e3e3576415a7a3a09&X-Amz-SignedHeaders=host&x-id=GetObject"
-            ></a-entity> 
-		
-	 <!--	
-            <a-entity
-            position="-.5 0 -.5"
-	    rotation="45 45 0"
-			animation="property: rotation; to: 0 -360 0; dur: 4500; easing: linear; loop: true"
-            scale="2.05 2.05 2.05"
-            gltf-model="./gltfModel/SM_MS_02.gltf"
-            ></a-entity>  -->
-		
-        </a-marker>
-		
-        <a-entity camera></a-entity>
-        </a-scene>
-        
-                <p>Welcome, click at your own risk 🧛</p>
-      <a href="/basicFrame01.html">Visit Basic Frame 01</a>
+ <html>
+ <body style="margin : 0px; overflow: hidden;">
+ 
+			<p>Welcome to view XR Sample</p>
+     
+	  
+	  <!--   <p>Welcome, click at your own risk 🧛</p>
+	  
+	  <a href="/basicFrame01.html">Visit Basic Frame 01</a>
         <br/>
       <a href="/aframe_gltfmodel.html">Visit Model Frame 01</a>
         <br/>
+	  <a href="/a_marker01.html">Void RUnner Marker</a>
+	     <br/>
+        <br/> 
       <a href="/a_marker01.html">Visit A Marker Test</a>
-        <br/>
-      <a href="/A-FrameTestAR01.html">Visit Another Marker Test</a>
-        
-    </body>
+        <br/> -->
+      <a href="/Shima.html">Shima Hiro Marker</a>
+		<br/>
+	  <a href="/a_marker01.html">Void RUnner Marker</a>
+	     <br/>
+		
+		
+		    </body>
 </html>
