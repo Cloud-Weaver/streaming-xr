@@ -15,9 +15,9 @@
         <br/> 
       <a href="/a_marker01.html">Visit A Marker Test</a>
         <br/> -->
-      <a href="/Shima.html">Shima Hiro Marker</a>
+      <a href="/Shima.html">Metashima Bot Marker</a>
 		<br/>
-	  <a href="/a_marker01.html">Void RUnner Marker</a>
+	  <a href="/VoidRunner.html">Void Runner Ship Marker</a>
 	     <br/>
 		
 		
